@@ -1,0 +1,32 @@
+#game-board {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+.dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #008000;
+}
+.apple {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #FF0000;
+}
+#score {
+    font-size: 24px;
+}
+#high-score {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+}
+#restart-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
